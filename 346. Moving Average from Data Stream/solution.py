@@ -5,7 +5,7 @@ class MovingAverage(object):
         Initialize your data structure here.
         :type size: int
         """
-        self.sum = 0;
+        self.sum = 0
         self.window = []
         self.size = size
 
