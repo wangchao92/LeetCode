@@ -9,4 +9,8 @@ O(n<sup>2</sup>)
 
 # Improvement
 
+Sort according to h (descending) then k (ascending). Then we can directly insert into result at pos (k) one by one. The reason is that, for current person, all person higher than him has been inserted, so his k is the exact position he need to be inserted at.
 
+# Complexity
+
+O(n<sup>2</sup>) but faster than the original solution.
